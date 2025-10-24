@@ -19,10 +19,10 @@ export default function SearchFilterForm({ onSearch }: Props) {
 
   React.useEffect(() => {
     const timeoutId = setTimeout(() => {
-      onSearch(search, status); // Fixed: was calling 'search' function instead of 'onSearch'
+      onSearch(search, status); 
     }, 300);
     return () => clearTimeout(timeoutId);
-  }, [search, status, onSearch]); // Fixed: dependency should be 'onSearch' not 'search'
+  }, [search, status, onSearch]); 
 
   return (
     <div className="bg-white rounded-xl shadow-md border border-gray-100 p-6 mb-6 backdrop-blur-sm bg-opacity-95">

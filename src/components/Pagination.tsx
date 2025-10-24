@@ -2,7 +2,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React from "react";
 
-// if not using shadcn yet, use a normal <button> instead
+
 
 interface Props {
   page: number;
