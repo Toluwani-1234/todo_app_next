@@ -19,7 +19,7 @@ export default function TodosPageClient() {
   if (!session) {
     return (
       <div className="p-4 max-w-3xl mx-auto text-center">
-        <h1 className="text-2xl font-bold mb-4">Authentication Required</h1>
+        <h1 className="text-2xl font-bold mb-4">Authentication Requireddd</h1>
         <p className="mb-6">You need to be signed in to view your todos.</p>
         <div className="flex justify-center space-x-4">
           <Link 
