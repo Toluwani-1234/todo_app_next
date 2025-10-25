@@ -105,7 +105,7 @@
 // }
       
 
-import { getServerSession } from "next-auth";
+import { getServerSession } from "next-auth/next";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 import { authOptions } from "@/lib/auth"; // Adjust path to your auth config
